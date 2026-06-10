@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #020617;
+  color: #f8fafc;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at top, rgba(16, 185, 129, 0.2), transparent 35%),
+    linear-gradient(135deg, #020617, #0f172a);
+}
+
+.card {
+  width: 100%;
+  max-width: 460px;
+  padding: 32px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 24px;
+  background: rgba(15, 23, 42, 0.92);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+}
+
+.badge {
+  display: inline-flex;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(16, 185, 129, 0.14);
+  color: #34d399;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 18px 0 0;
+  font-size: 36px;
+  line-height: 1.1;
+}
+
+.description {
+  margin: 14px 0 24px;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.statusList {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.statusItem {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(30, 41, 59, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+.statusItem span {
+  color: #94a3b8;
+}
+
+.statusItem strong {
+  color: #34d399;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 16px;
+  background: #10b981;
+  color: #022c22;
+  text-align: center;
+  font-weight: 800;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.button:hover {
+  background: #34d399;
+  transform: translateY(-1px);
+}
