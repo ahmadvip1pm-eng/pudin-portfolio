@@ -1,7 +1,4 @@
 {
-  "name": "cek-website-vercel",
-  "version": "1.0.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +6,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "@supabase/supabase-js": "^2.48.1",
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {}
 }
