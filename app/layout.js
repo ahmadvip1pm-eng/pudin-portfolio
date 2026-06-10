@@ -1,8 +1,8 @@
-import './globals.css';
+import "./globals.css";
 
 export const metadata = {
-  title: 'Cek Website Vercel',
-  description: 'Simple health check website menggunakan Next.js untuk deploy ke Vercel.',
+  title: "Portfolio Next.js Supabase",
+  description: "Website portfolio sederhana dengan Next.js, Supabase, dan Vercel",
 };
 
 export default function RootLayout({ children }) {
